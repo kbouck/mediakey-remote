@@ -1,0 +1,22 @@
+[global]
+
+
+
+[keys]
+volume_up   = 115
+volume_down = 114
+play_pause  = 164
+next        = 163
+previous    = 165
+
+[sonos]
+vol_step = 1
+vol_init_max = 20       # if higher, lower to this volume before requesting play() 
+                        # this is to avoid scaring the cat when volume is unexpectedly
+                        # high for whatever reason.
+                        # Note: this has no effect on the sonos max volume setting
+
+
+[spotify]
+
+
