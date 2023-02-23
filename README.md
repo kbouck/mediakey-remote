@@ -1,5 +1,5 @@
 # mediakey-remote
-Forward media key events to remote streaming media control APIs
+Forward local media key events to remote streaming media control APIs
 
 # install
 
