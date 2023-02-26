@@ -5,9 +5,9 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-Restart=always
-RestartSec=1
 ExecStart=/home/kbouck/dev/mediakey-remote/dist/mediakey-remote
+Restart=always
+RuntimeMaxSec=10min
 
 [Install]
 WantedBy=multi-user.target
