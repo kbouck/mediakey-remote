@@ -32,7 +32,7 @@ sudo systemctl enable mediakey-remote.service
 # build
 ```bash
 # enable your venv
-# pip install keyboard soco pyinstaller
+# pip install keyboard soco toml pyinstaller 
 pyinstaller mediakey-remote.py --onefile
 ```
 
