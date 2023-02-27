@@ -23,7 +23,7 @@
 # - spotify
 #   - ...
 
-import importlib
+#import importlib
 import time
 from threading import Thread
 import keyboard
@@ -67,6 +67,8 @@ def connect():
 
     sonos = soco.discovery.any_soco()
     print("Connected to '" + str(sonos.player_name) + "'")
+    # todo - error handling if unsuccessful
+
     state = ""
     volume = 0
     volume_step  = config['sonos']['vol_step']
